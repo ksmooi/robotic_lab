@@ -8,7 +8,7 @@ WorldInfo {
 }
 Viewpoint {
   orientation -0.003523148709454945 0.9999877005075538 0.0034908819495538903 1.580811463343797
-  position 0.2585711744851792 -0.10394751107721324 3.5156164931820117
+  position 0.30528024636907825 -0.062315085941256884 4.635429038287677
 }
 TexturedBackground {
 }
@@ -75,7 +75,7 @@ Robot {
         }
       ]
       endPoint DEF EPUCK_LEFT_WHEEL Solid {
-        translation 0 0.025999999999999968 0.02
+        translation 0 0.025999999999999954 0.02
         rotation 0 -1 0 4.369106442106738
         children [
           DEF EPUCK_WHEEL Pose {
