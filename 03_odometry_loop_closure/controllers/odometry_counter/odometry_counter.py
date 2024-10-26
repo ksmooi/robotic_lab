@@ -70,8 +70,11 @@ class OdometryCounter:
         """
         left_motor = self.robot.getDevice('left wheel motor')
         right_motor = self.robot.getDevice('right wheel motor')
+        
+        # Set the motors to run indefinitely
         left_motor.setPosition(float('inf'))
         right_motor.setPosition(float('inf'))
+        
         return left_motor, right_motor
 
     def set_motor_velocity(self, left_velocity, right_velocity):
@@ -112,9 +115,9 @@ class OdometryCounter:
         # Update total rotation
         self.total_rotation += delta_omega
 
-        # Calculate position change in global coordinates
-        delta_y = delta_s * math.cos(self.total_rotation)
-        delta_x = delta_s * math.sin(self.total_rotation)
+        # Calculate position change in global coordinates (swapped x and y)
+        delta_x = delta_s * math.cos(self.total_rotation)  # Changed from delta_y
+        delta_y = -delta_s * math.sin(self.total_rotation)  # Changed from delta_x and added negative
 
         # Update position
         self.y_pos += delta_y
