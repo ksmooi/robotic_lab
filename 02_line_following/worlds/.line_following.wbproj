@@ -5,5 +5,5 @@ sceneTreePerspectives: 000000ff0000000100000003000000220000021d00000166010000000
 maximizedDockId: -1
 centralWidgetVisible: 1
 orthographicViewHeight: 1
-textFiles: 0 "controllers/line_follower/line_follower.py"
+textFiles: 0 "../line_following/controllers/line_follower/line_follower.py"
 renderingDevicePerspectives: e-puck:camera;1;1;0;0
