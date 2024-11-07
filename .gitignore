@@ -1,0 +1,6 @@
+
+*.wbproj
+.*.jpg
+/webots/07_bt_mapping_navigation/controllers/behavior_trees/__pycache__
+*.npy
+*.dot
