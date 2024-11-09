@@ -24,6 +24,8 @@ Autonomous robotics has rapidly evolved, integrating advanced algorithms, sophis
 
 ## Project Overview
 
+![](res/04_commission_range_finder.jpg)
+
 The **Robotic Lab** project serves as an educational and experimental platform, showcasing a range of autonomous robotic behaviors from basic reactive mechanisms to complex task execution involving arm and finger controls. By leveraging the Webots simulation environment, the project provides a risk-free and highly customizable setting for developing and testing robotic algorithms.
 
 ### Key Objectives
@@ -187,6 +189,8 @@ The **Commission Range Finder** module focuses on integrating and utilizing rang
 
 The **Trajectory Following** module advances the robot's navigation capabilities by enabling it to follow complex trajectories, which are essential for tasks requiring precise movement patterns.
 
+![](res/05_trajectory_following.jpg)
+
 #### Components
 
 - **Controllers**:
@@ -210,6 +214,8 @@ The **Trajectory Following** module advances the robot's navigation capabilities
 #### Overview
 
 Building upon previous modules, the **Mapping and Trajectory Generator** combines environmental mapping with trajectory generation, enabling the robot to create paths based on its perception of the environment.
+
+![](res/06_mapping_trajectory_generator.jpg)
 
 #### Components
 
@@ -257,6 +263,8 @@ The **Behavior Trees: Mapping and Navigation** module introduces **behavior tree
 #### Overview
 
 The final module, **Control Arms and Fingers**, extends the robot's capabilities to include manipulator control, allowing it to interact with objects in its environment. This is pivotal for tasks requiring precision and dexterity, such as picking and placing items.
+
+![](res/08_control_arms_fingers.jpg)
 
 #### Components
 
