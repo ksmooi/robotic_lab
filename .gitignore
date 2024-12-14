@@ -4,3 +4,9 @@
 /webots/07_bt_mapping_navigation/controllers/behavior_trees/__pycache__
 *.npy
 *.dot
+webots/04_commission_range_finder/demo_world_frame.mp4
+webots/04_commission_range_finder/demo_world_transform.mp4
+webots/04_commission_range_finder/result_snapshot.jpg
+webots/05_trajectory_following/result_snapshot.jpg
+webots/07_bt_mapping_navigation/phase1_snapshot.jpg
+webots/07_bt_mapping_navigation/phase2_snapshot.jpg
